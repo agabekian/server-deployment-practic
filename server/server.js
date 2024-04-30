@@ -8,7 +8,7 @@ const errorHandler = require('./handlers/500.js');
 const timeStamper = require('./middleware/stamper.js');
 
 // Route Definitions
-app.get('/', getHomePage);
+app.get('/', getHomePage); //funcs def below
 app.get('/data', timeStamper, getData);
 app.get('/bad', forceError);
 
@@ -18,7 +18,7 @@ app.use(errorHandler);
 // Route Handler Functions
 
 function getHomePage(req, res) {
-  res.status(200).send('Hello World')
+  res.status(200).send('Armen was here :)')
 }
 
 function getData(req, res) {
