@@ -32,7 +32,7 @@ function getData(req, res) {
 
 function forceError(req, res, next) {
   // throw new Error("You messed up");
-  next('you messsed up')
+  next('you messsed it up')
 }
 
 function start(port) {
