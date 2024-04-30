@@ -18,7 +18,7 @@ app.use(errorHandler);
 // Route Handler Functions
 
 function getHomePage(req, res) {
-  res.status(200).send('Armen was here :)')
+  res.status(200).send('Hello World')
 }
 
 function getData(req, res) {
@@ -32,7 +32,7 @@ function getData(req, res) {
 
 function forceError(req, res, next) {
   // throw new Error("You messed up");
-  next('you messsed up')
+  next('you messsed it up')
 }
 
 function start(port) {
