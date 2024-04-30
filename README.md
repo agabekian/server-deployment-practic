@@ -2,7 +2,7 @@
 ###  Server deployment practice
 #### Author: A. Agabekian
 https://server-deployment-practice-2-d7ap.onrender.com
-
+<p>
 https://github.com/agabekian/server-deployment-practice/pull/3
 
 #### Setup
@@ -19,5 +19,5 @@ Tests
 
 ### UML
 
-![uml_diag.png](server/t -m xuml.png)
+![uml_diag.png](server/uml.png)
 
