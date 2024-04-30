@@ -23,8 +23,8 @@ function getHomePage(req, res) {
 
 function getData(req, res) {
   let outputObject = {
-    10: "even",
-    5: "odd",
+    8: "even",
+    101: "odd",
     "time": req.timestamp // we got this from the middleware
   }
   res.status(200).json(outputObject);
