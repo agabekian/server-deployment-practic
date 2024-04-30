@@ -18,7 +18,7 @@ app.use(errorHandler);
 // Route Handler Functions
 
 function getHomePage(req, res) {
-  res.status(200).send('Armen was here :)')
+  res.status(200).send('Hello World')
 }
 
 function getData(req, res) {
